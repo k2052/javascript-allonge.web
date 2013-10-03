@@ -1,6 +1,1 @@
-- add stuff to allow deployment to heroku
-- copy toc css fixes to middleman-ebook
-- copy new changes to application.coffee and kramdown templates + css to middleman-eboo
-
-- Later 
-	- add importation parser for stuff like <<(code)
+- add importation parser for stuff like <<(code)
