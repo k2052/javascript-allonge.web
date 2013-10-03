@@ -1,7 +1,7 @@
 # JavaScript Allonge Web
 
 This is an HTML version of [JavaScript Allongé](https://leanpub.com/javascript-allonge) with runnable code examples.
-It is accessible at [http://javascript-allonge.herokuapp.com](javascript-allonge.herokuapp.com).
+It is accessible at [javascript-allonge.herokuapp.com](http://javascript-allonge.herokuapp.com).
 All credit for the contents goes to @raganwald I merely translated, converted, ported and decorated his words.
 
 ## Credits and License
