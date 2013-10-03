@@ -1,0 +1,75 @@
+@import "mocha/mocha" 
+@import "codemirror/lib/codemirror"
+
+// *************************************
+//
+//   Application
+//   -> MVCSS v3.0.1
+//
+// *************************************
+
+// -------------------------------------
+//   Compass and Frameworks
+// -------------------------------------
+
+@import "compass"
+@import "sassy-buttons"
+
+// -------------------------------------
+//   Core
+// -------------------------------------
+
+// ----- Fonts -----//
+
+@import "core/fonts"
+
+// ----- Reset ----- //
+
+@import "core/reset"
+
+// ----- Settings ----- //
+
+@import "core/settings"
+
+// ----- Helpers ----- //
+
+@import "core/helpers"
+
+// ----- Base ----- //
+
+@import "core/base"
+
+// ----- Layout ----- //
+
+@import "core/layout"
+
+// -------------------------------------
+//   Modules
+// -------------------------------------
+
+@import "modules/keys"
+@import "modules/buttons"
+@import "modules/syntaxhighlighting"
+@import "modules/toc"
+@import "modules/textblocks"
+@import "modules/asides"
+@import "modules/pagination"
+
+header.cover
+  // background-image: image-url('header_bg.jpg')
+  background-size: cover
+  background-position: center center
+  display: block
+  width: 100%
+  
+  h1
+    font-size: rem(40px)
+    padding-top: 36px
+    text-aligne: center
+    width: 640px
+    margin: 0px auto
+    line-height: rem(60px)
+
+  p
+    width: 640px
+    margin: 36px auto 0 auto

@@ -1,0 +1,26 @@
+doctype 5
+html lang="en" 
+  head           
+    meta charset="UTF-8"   
+    title JavaScript Allongé by Reginald Braithwaite
+    link href='http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,300,300italic' rel='stylesheet' type='text/css'
+    == stylesheet_link_tag :application
+  body
+    == partial "partials/toc"
+    a href="https://github.com/k2052/javascript-allonge.web" 
+      img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"
+    - if current_toc_pos_first?
+      header.cover
+        h1.big 
+          div JavaScript Allongé 
+          div        by
+          div Reginald Braithwaite
+        markdown:
+          This is a version of [JavaScript Allongé](https://leanpub.com/javascript-allonge) specifically 
+          formatted for the web.
+          It has runnable code examples, better styling than Leanpub, and is split up by chapters.
+    .container
+      .page
+        == yield
+        == partial "partials/pagination"
+    == javascript_include_tag :application

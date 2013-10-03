@@ -1,0 +1,110 @@
+- title: "A Pull of the Lever: Prefaces"
+  link: "/"
+  sections:
+    - title: Foreword by Michael Fogus
+    - title: Foreword by Matthew Knox
+    - title: Why JavaScript Allongé?
+    - title: A Personal Word About The Recipes
+    - title: Legend
+- title: "Prelude: Values and Expressions"
+  sections:  
+    - title: values and expressions
+    - title: values and identity
+- title: "The first sip: Basic Functions"
+  sections:
+    - title: "As Little As Possible About Functions, But No Less"
+    - title: "Ah. I’d Like to Have an Argument, Please."
+    - title: Closures and Scope
+    - title: Let’s Talk Var
+    - title: Naming Functions
+    - title: Combinators and Function Decorators
+    - title: Building Blocks
+    - title: I’d Like to Have Some Arguments. Again.
+    - title: Summary
+- title: The Recipe Cheat Sheet
+- title: Recipes with Basic Functions
+  sections:
+    - title: Partial Application
+    - title: Ellipses and improved Partial Application
+    - title: Unary
+    - title: Tap
+    - title: Maybe
+- title: "The Pause That Refreshes: Rebinding and References"
+  sections:
+    - title: Arguments and Arrays
+    - title: References and Objects
+    - title: Reassignment and Mutation
+    - title: How to Shoot Yourself in the Foot With Var
+    - title: When Rebinding Meets Recursion
+    - title: From Let to Modules
+    - title: Summary
+- title: Recipes with Rebinding and References
+  sections:
+    - title: Once
+    - title: mapWith
+    - title: Flip
+    - title: Extend
+    - title: Why?
+- title: "Stir the Allongé: Objects, Mutation, and State"
+  sections:
+    - title: Encapsulating State with Closures
+    - title: Composition and Extension
+    - title: This and That
+    - title: What Context Applies When We Call a Function?
+    - title: Method Decorators
+    - title: Summary
+- title: "Recipes with Objects, Mutations, and State"
+  sections:
+    - title: Memoize
+    - title: getWith
+    - title: pluckWith
+    - title: Deep Mapping
+- title: "Finish the Cup: Instances and Classes"
+  sections:
+    - title: "Prototypes are Simple, it’s the Explanations that are Hard To Understand"
+    - title: Binding Functions to Contexts
+    - title: "Partial Application, Binding, and Currying"
+    - title: A Class By Any Other Name
+    - title: Object Methods
+    - title: Extending Classes with Inheritance
+    - title: Summary
+- title: Recipes with Instances and Classes
+  sections:
+    - title: Currying
+    - title: Bound
+    - title: Unbinding
+    - title: Send
+    - title: Invoke
+    - title: Fluent
+    - title: Once Again
+- title: Sequence
+  sections:
+    - title: "Introduction: Compose and Pipeline"
+- title: New Ideas
+  sections:
+    - title: How Prototypes and Constructors differ from Classes
+    - title: New-Agnostic Constructors
+    - title: Another New-Agnostic Constructor Pattern
+    - title: Mixins
+    - title: Class Decorators
+    - title: "Interlude: Tortoises, Hares, and Teleporting Turtles"
+    - title: Functional Iterators
+    - title: Refactoring to Functional Iterators
+    - title: A Drunken Walk Across A Chequerboard
+    - title: Trampolining
+- title: Recipes for New Ideas
+  sections:
+    - title: Before
+    - title: After
+    - title: Provided and Except
+    - title: A Functional Mixin Factory
+    - title: A Class Decorator Factory
+    - title: Iterator Recipes
+- title: The Golden Crema
+  sections:
+    - title: Author’s Notes
+    - title: How to run the examples
+    - title: Thanks!
+    - title: CoffeeScript Ristretto
+    - title: Copyright Notice
+    - title: About The Author
